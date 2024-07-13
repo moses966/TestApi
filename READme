@@ -1,0 +1,36 @@
+# TesstAPI Project
+
+This project is a simple FastAPI application that interacts with an Ethereum smart contract on the Sepolia testnet.
+
+
+## Set up commands
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/moses966/testapi.git
+cd testapi
+source .venv/bin/activate
+pip install -r requirements.txt  
+```
+
+## Run Commands
+
+- Compiling Vyper code:  
+
+```bash
+ape compile
+``` 
+- deploying:  
+```bash
+ape run deploy
+```
+- interaction:  
+```bash
+ape run testing
+```
+- API Run:
+```bash
+uvicorn scripts.main:app --reload
+```
+

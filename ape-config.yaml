@@ -1,0 +1,9 @@
+name: Anderson
+
+ethereum:
+  default_network: sepolia
+  sepolia:
+    chain_id: 11155111
+    default_provider: alchemy
+
+default_ecosystem: ethereum
