@@ -9,7 +9,7 @@ Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/moses966/TestApi.git
-cd testapi
+cd TestApi
 source .venv/bin/activate
 pip install -r requirements.txt  
 ```
